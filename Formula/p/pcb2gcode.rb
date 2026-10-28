@@ -2,12 +2,11 @@ class Pcb2gcode < Formula
   desc "Command-line tool for isolation, routing and drilling of PCBs"
   homepage "https://github.com/pcb2gcode/pcb2gcode"
   license "GPL-3.0-or-later"
-  revision 1
   head "https://github.com/pcb2gcode/pcb2gcode.git", branch: "master"
 
   stable do
-    url "https://github.com/pcb2gcode/pcb2gcode/archive/refs/tags/v3.0.4.tar.gz"
-    sha256 "46351d4b7479059becae064cc68f2d1d68d42ae314ff7a1d9a240c71a3c0c98c"
+    url "https://github.com/pcb2gcode/pcb2gcode/archive/refs/tags/v3.1.0.tar.gz"
+    sha256 "1dc10343a16d291c058b3d79e6ded25f13a99584b1b0d572808cd33216358cc1"
 
     # Backport fix for newer Boost
     patch do
