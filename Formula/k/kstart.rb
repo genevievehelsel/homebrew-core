@@ -28,6 +28,8 @@ class Kstart < Formula
 
   uses_from_macos "krb5"
 
+  deny_network_access!
+
   def install
     system "./configure", "--disable-dependency-tracking",
                           "--disable-silent-rules",
