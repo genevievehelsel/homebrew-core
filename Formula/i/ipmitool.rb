@@ -55,6 +55,8 @@ class Ipmitool < Formula
     resolves "https://github.com/ipmitool/ipmitool/issues/332"
   end
 
+  deny_network_access!
+
   def install
     system "./bootstrap"
     system "./configure", *std_configure_args,
